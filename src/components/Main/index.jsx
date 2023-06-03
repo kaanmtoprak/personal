@@ -22,15 +22,15 @@ const Main = () => {
             </div>
             <div className='main__content'>
                 <div className='main__content__about'>
-                    <h1 className='text--content-title'>About Me</h1>
-                    <div className='grid grid-two-columns'>
-                        <div className='main__content__about__left'>
+                    <h1 className='text--content-title main__content__title'>About Me</h1>
+                    <div className='main__content__grid grid grid--two-columns'>
+                        <div className='main__content__grid__left'>
                             <p>Hello! I’m Ryan Adlard.
-Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
+                                Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
                         </div>
-                        <div className='main__content__about__right '>
+                        <div className='main__content__grid__right '>
                         pHello! I’m Ryan Adlard.
-Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+                                Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
                         </div>
                     </div>
                 </div>
