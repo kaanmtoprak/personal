@@ -29,8 +29,12 @@ const Main = () => {
                                 Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
                         </div>
                         <div className='main__content__grid__right '>
-                        pHello! I’m Ryan Adlard.
-                                Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+
+                                <div className=''>
+
+                                </div>
+
+                                
                         </div>
                     </div>
                 </div>
