@@ -121,46 +121,63 @@ main {
           max-width: 585px;
           margin: 0 auto;
         }
-      }
-      .main__content__title {
-        position: relative;
-        padding: 20px;
-        &::after {
-          content: '';
-          position: absolute;
-          height: 1px;
-          left: -10px;
-          right: 0;
-          bottom: 0;
-          width: auto;
-          background: -moz-radial-gradient(left, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
-          background: -webkit-radial-gradient(left, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
-          background: radial-gradient(ellipse at left, #ddd 0%, rgba(255,255,255,0) 70%);
-        }
-      }
-      .main__content__grid {
-          display: grid;
-          gap: 5px;
-          grid-template-columns: 1fr 1fr;
-          >* {
-            padding: 30px;
-          }
-          &__right {
-            position: relative;
-           &::before {
+        &__title {
+          position: relative;
+          padding: 20px;
+          &::after {
             content: '';
             position: absolute;
-            left: -1px;
-            top: 0;
-            width: 1px;
-            height: 100%;
-            background: -moz-radial-gradient(top, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
-            background: -webkit-radial-gradient(top, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
-            background: radial-gradient(ellipse at top, #ddd 0%, rgba(255,255,255,0) 70%);
-           }
+            height: 1px;
+            left: -10px;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            background: -moz-radial-gradient(left, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+            background: -webkit-radial-gradient(left, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+            background: radial-gradient(ellipse at left, #ddd 0%, rgba(255,255,255,0) 70%);
           }
-
         }
+        &__about {
+
+          &__badges {
+
+            &__badge {
+               @include flex-between-center;
+               margin-bottom: 15px ;
+               &__key {
+                padding: 0 8px;
+                background-color: $main-04;
+                color: $white;
+                border-radius: 3px;
+               }
+            }
+          }
+        }
+        &__grid {
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 1fr 1fr;
+            >* {
+              padding: 30px;
+            }
+            &__right {
+              position: relative;
+             &::before {
+              content: '';
+              position: absolute;
+              left: -1px;
+              top: 0;
+              width: 1px;
+              height: 100%;
+              background: -moz-radial-gradient(top, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+              background: -webkit-radial-gradient(top, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+              background: radial-gradient(ellipse at top, #ddd 0%, rgba(255,255,255,0) 70%);
+             }
+            }
+  
+          }
+      }
+
 
       
   }
