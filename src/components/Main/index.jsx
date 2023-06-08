@@ -47,6 +47,23 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                <div className='main__content__resume'>
+                    <h1 className='text--content-title main__content__title'>Resume</h1>
+                    <div className='main__content__grid grid grid--two-columns'>
+                        <div className='main__content__grid__left'>
+                            <div className='main__content__section-title'>
+                                <i className='icon-case'></i>
+                                <span className='text--section-title'>Experience</span>
+                            </div>
+                        </div>
+                        <div className='main__content__grid__right'>
+                        <div className='main__content__section-title'>
+                        <i className='icon-books'></i>
+                                <span className='text--section-title'>Education</span>
+                            </div>
+                        </div>
+                </div>
+                </div>
             </div>
         
         </div>

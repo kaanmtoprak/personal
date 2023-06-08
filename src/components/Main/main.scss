@@ -137,22 +137,33 @@ main {
             background: radial-gradient(ellipse at left, #ddd 0%, rgba(255,255,255,0) 70%);
           }
         }
-        &__about {
-
-          &__badges {
-
-            &__badge {
-               @include flex-between-center;
-               margin-bottom: 15px ;
-               &__key {
-                padding: 0 8px;
-                background-color: $main-04;
-                color: $white;
-                border-radius: 3px;
-               }
-            }
+        &__section-title {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-bottom: 30px;
+          &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background: -moz-radial-gradient(center, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+            background: -webkit-radial-gradient(center, ellipse cover, #ddd 0%, rgba(255,255,255,0) 70%);
+            background: radial-gradient(ellipse at center, #ddd 0%, rgba(255,255,255,0) 70%);
           }
+          span {
+            margin-left: 10px;
+          }
+          i {
+            font-size: 40px;
+            color: $main-04;
+          }
+          
         }
+
         &__grid {
             display: grid;
             gap: 5px;
@@ -175,6 +186,22 @@ main {
              }
             }
   
+          }
+          &__about {
+
+            &__badges {
+  
+              &__badge {
+                 @include flex-between-center;
+                 margin-bottom: 15px ;
+                 &__key {
+                  padding: 0 8px;
+                  background-color: $main-04;
+                  color: $white;
+                  border-radius: 3px;
+                 }
+              }
+            }
           }
       }
 
