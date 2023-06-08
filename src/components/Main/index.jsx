@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.scss';
+import Form from '../Form';
 const Main = () => {
   return (
     <main>
@@ -55,13 +56,217 @@ const Main = () => {
                                 <i className='icon-case'></i>
                                 <span className='text--section-title'>Experience</span>
                             </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year active'>
+                                    2023 - Present
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Frontend Developer
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    Maykim Group
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year'>
+                                    2022 - 2023
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Frontend Developer
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    Martı Teknoloji
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year'>
+                                    2019 - 2022
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Frontend Developer
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    Maykim Group
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
                         </div>
                         <div className='main__content__grid__right'>
                         <div className='main__content__section-title'>
                         <i className='icon-books'></i>
                                 <span className='text--section-title'>Education</span>
                             </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year'>
+                                    2019 
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Frontend Developer Course
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    Patika Dev
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year'>
+                                    2019
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Graphic and Web Design
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    BilgeAdam Academy
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__year'>
+                                    2014 - 2019
+                                </div>
+                                <div className='main__content__section-content__title'>
+                                    Atılım University
+                                </div>
+                                <div className='main__content__section-content__subtitle'>
+                                    Ankara
+                                </div>
+                                <div className='main__content__section-content__comment'>
+                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                </div>
+                            </div>
                         </div>
+
+                </div>
+                </div>
+                <div className='main__content__skills'>
+                <h1 className='text--content-title main__content__title'>My Skills</h1>
+                <div className='main__content__grid grid grid--two-columns'>
+                        <div className='main__content__grid__left'>
+                        <div className='main__content__section-title'>
+                                <i className='icon-embed'></i>
+                                <span className='text--section-title'>Coding</span>
+                            </div>
+                            <div className='main__content__section-content'>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>HTML5</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"95%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>CSS3</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"85%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>SASS</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"81%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>JAVASCRPT</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"90%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>TYPESCRIPT</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"85%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>REACTJS</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"90%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>NEXTJS</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"80%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>NODEJS</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"70%"}}></div>
+                                        </div>
+                                </div>
+                                <div className='main__content__section-content__coding'>
+                                        <div className='main__content__section-content__coding__name'>MONGODB</div>
+                                        <div className='progress'>
+                                            <div className='progress__percentage' style={{width:"60%"}}></div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='main__content__grid__right  '>
+                        <div className='main__content__section-title'>
+                                <i className='icon-file'></i>
+                                <span className='text--section-title'>Knowledge</span>
+                            </div>
+                           <div className='main__content__section-content'>
+                           <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Corporate Website Development</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Portfolio Website Development</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Admin Dashboard Development</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Landing Page Development</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Responsive Website Design</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>SEO Friendly Website Development </span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>Blog Page Development</span>
+                            </div>
+                            <div className='main__content__section-content__knowledge'>
+                                <i className='icon-check'></i>
+                                <span>E-Commerce Website Development</span>
+                            </div>
+                           </div>
+                            
+
+                                
+                        </div>
+                    </div>
+                
+                </div>
+                <div className='main__content__contact'>
+                <h1 className='text--content-title main__content__title'>Contact</h1>
+                <div className='main__content__section-content'>
+                    <div className='main__content__section-content__contact'>
+                      <Form/>
+                    </div>
                 </div>
                 </div>
             </div>

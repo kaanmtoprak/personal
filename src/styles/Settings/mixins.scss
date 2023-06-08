@@ -58,6 +58,11 @@
     align-items: center;
     justify-content: flex-end;
   }
+  @mixin flex-end-center {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
   @mixin flex-start-center-column {
     display: flex;
     align-items: flex-start;

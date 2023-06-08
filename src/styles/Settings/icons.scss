@@ -27,6 +27,18 @@
     }
   }
   
+  .icon-github:before {
+    content: "\e900";
+  }
+  .icon-twitter:before {
+    content: "\e901";
+  }
+  .icon-instagram:before {
+    content: "\e902";
+  }
+  .icon-linkedin:before {
+    content: "\e903";
+  }
   .icon-books:before {
     content: "\e920";
   }
@@ -48,15 +60,6 @@
   .icon-embed:before {
     content: "\ea80";
   }
-  .icon-github:before {
-    content: "\e900";
-  }
-  .icon-twitter:before {
-    content: "\e901";
-  }
-  .icon-instagram:before {
-    content: "\e902";
-  }
-  .icon-linkedin:before {
-    content: "\e903";
+  .icon-check:before {
+    content: "\ea11";
   }
