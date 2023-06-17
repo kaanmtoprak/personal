@@ -1,6 +1,5 @@
 import React from 'react';
 import './main.scss';
-import Form from '../Form';
 const Main = () => {
   return (
     <main>
@@ -13,10 +12,11 @@ const Main = () => {
                     <h1 className='text--title'>Mehmet Kaan Toprak</h1>
                     <p className='text--p'>Frontend Developer </p>
                     <div className='main__profile__info__icon-group'>
-                        <a href="/"><i className='icon-instagram'></i></a>
-                        <a href="/"><i className='icon-twitter'></i></a>
-                        <a href="/"><i className='icon-linkedin'></i></a>
-                        <a href="/"><i className='icon-github'></i></a>
+                        <a target='_blank' rel="noreferrer" href="https://instagram.com/mehkaandev"><i className='icon-instagram'></i></a>
+                        <a target='_blank' rel="noreferrer" href="https://twitter.com/kaanmehtprk"><i className='icon-twitter'></i></a>
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/kaanmtprk/"><i className='icon-linkedin'></i></a>
+                        <a target='_blank' rel="noreferrer" href="https://github.com/kaanmtoprak"><i className='icon-github'></i></a>
+                        
                     </div>
                 </div>
                 <a className='main__profile__info__button' href='images/profile.jpeg' download> Download CV</a>
@@ -26,8 +26,8 @@ const Main = () => {
                     <h1 className='text--content-title main__content__title'>About Me</h1>
                     <div className='main__content__grid grid grid--two-columns'>
                         <div className='main__content__grid__left'>
-                            <p>Hello! I’m Ryan Adlard.
-                                Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
+                            <p>Hello! I’m Mehmet Kaan Toprak.
+                                Frontend developer from Turkey, Istanbul. I have rich experience in web site design and building, also I am good at MERN stack applications. I love to talk with you about our unique.</p>
                         </div>
                         <div className='main__content__grid__right main__content__about__badges '>
 
@@ -86,7 +86,7 @@ const Main = () => {
                             </div>
                             <div className='main__content__section-content'>
                                 <div className='main__content__section-content__year'>
-                                    2019 - 2022
+                                    2020 - 2022
                                 </div>
                                 <div className='main__content__section-content__title'>
                                     Frontend Developer
@@ -261,14 +261,7 @@ const Main = () => {
                     </div>
                 
                 </div>
-                <div className='main__content__contact'>
-                <h1 className='text--content-title main__content__title'>Contact</h1>
-                <div className='main__content__section-content'>
-                    <div className='main__content__section-content__contact'>
-                      <Form/>
-                    </div>
-                </div>
-                </div>
+
             </div>
         
         </div>
