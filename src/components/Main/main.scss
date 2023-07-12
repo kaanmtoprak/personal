@@ -136,14 +136,14 @@ main {
           overflow-y: scroll;
         }
         @include tablet {
-          max-width: 545px;
+          max-width: 585px;
           margin: 0 auto;
         }
         @include above-phone {
           padding: 0 20px;
         }
         @include phone {
-          max-width: 350px;
+          max-width: 380px;
           margin: 0 auto;
           padding: 0 15px;
         }
@@ -211,10 +211,10 @@ main {
             padding: 0 5px;
             font-size: 13px;
             line-height: 18px;
-            color: #ccc;
+            color: $grey-05;
             font-weight: 400;
             text-transform: none;
-            border: 1px solid #eeeeee;
+            border: 1px solid $grey-04;
 
           }
           .active {
@@ -286,6 +286,7 @@ main {
           }
 
         }
+        
 
         &__grid {
             display: grid;
@@ -333,6 +334,10 @@ main {
                  }
               }
             }
+          }
+          &__contact {
+            padding: 20px;
+
           }
       }
 

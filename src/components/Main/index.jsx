@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.scss';
+import Form from '../Form';
 const Main = () => {
   return (
     <main>
@@ -12,22 +13,25 @@ const Main = () => {
                     <h1 className='text--title'>Mehmet Kaan Toprak</h1>
                     <p className='text--p'>Frontend Developer </p>
                     <div className='main__profile__info__icon-group'>
-                        <a target='_blank' rel="noreferrer" href="https://instagram.com/mehkaandev"><i className='icon-instagram'></i></a>
-                        <a target='_blank' rel="noreferrer" href="https://twitter.com/kaanmehtprk"><i className='icon-twitter'></i></a>
-                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/kaanmtprk/"><i className='icon-linkedin'></i></a>
-                        <a target='_blank' rel="noreferrer" href="https://github.com/kaanmtoprak"><i className='icon-github'></i></a>
+                        <a target='_blank' aria-label='instagram adress' rel="noreferrer" href="https://instagram.com/mehkaandev"><i className='icon-instagram'></i></a>
+                        <a target='_blank' aria-label='twitter adress' rel="noreferrer" href="https://twitter.com/kaanmehtprk"><i className='icon-twitter'></i></a>
+                        <a target='_blank' aria-label='linkedin adress' rel="noreferrer" href="https://www.linkedin.com/in/kaanmtprk/"><i className='icon-linkedin'></i></a>
+                        <a target='_blank' aria-label='github adress' rel="noreferrer" href="https://github.com/kaanmtoprak"><i className='icon-github'></i></a>
                         
                     </div>
                 </div>
-                <a className='main__profile__info__button' href='images/profile.jpeg' download> Download CV</a>
+                <a className='main__profile__info__button' href='cv/en_mkt.pdf' download> Download CV</a>
             </div>
             <div className='main__content'>
                 <div className='main__content__about'>
                     <h1 className='text--content-title main__content__title'>About Me</h1>
                     <div className='main__content__grid grid grid--two-columns'>
                         <div className='main__content__grid__left'>
-                            <p>Hello! I’m Mehmet Kaan Toprak.
-                                Frontend developer from Turkey, Istanbul. I have rich experience in web site design and building, also I am good at MERN stack applications. I love to talk with you about our unique.</p>
+                            <p>
+                            I am a Frontend Developer with a passion for creating dynamic and engaging user interfaces. After completing my university education, I discovered my interest in this field and started honing my skills. Throughout my previous experiences, I have worked extensively with technologies such as ReactJS, Next.js, TypeScript, Sass, as well as design libraries like Ant Design, Bootstrap, and Chakra UI. I have also utilized animation libraries such as Framer Motion and Scroll Magic to bring life to my projects. By following the BEM methodology, I have developed projects with clean and scalable code.
+
+I have had the opportunity to work with Agile methodologies in my previous positions, allowing me to collaborate effectively in team environments. In addition to frontend development, I have also worked on full-stack applications for personal projects. I use Node.js, Express.js, and JWT for server-side development, and I have experience using MongoDB as a database solution. Furthermore, I have some familiarity with Docker and Redis, which I have utilized in my personal projects.
+                            </p>
                         </div>
                         <div className='main__content__grid__right main__content__about__badges '>
 
@@ -67,7 +71,7 @@ const Main = () => {
                                     Maykim Group
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                While at Papel Teknoloji, a financial technology company, I worked on developing web sites and admin panels. Using React.js, we built projects that closely aligned with the design prototypes from Figma. We created custom components following the BEM methodology using Ant Design and Sass. Additionally, we optimized localization using the i18n package and added animations to the web sites using libraries like Framer Motion and Scroll Magic.
                                 </div>
                             </div>
                             <div className='main__content__section-content'>
@@ -81,7 +85,7 @@ const Main = () => {
                                     Martı Teknoloji
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                While working at Martı Teknoloji, I actively contributed to the development of admin panels using Next.js, TypeScript, and Redux Toolkit. We created custom components following the BEM methodology using the Ant Design library and SASS. Our team embraced Agile methodologies and utilized tools like Jira and Slack for effective collaboration.
                                 </div>
                             </div>
                             <div className='main__content__section-content'>
@@ -95,7 +99,7 @@ const Main = () => {
                                     Maykim Group
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                I worked at Maykim Group where I gained valuable experience in frontend development. As part of the team, I utilized HTML, CSS, JavaScript, and jQuery technologies, along with the Bootstrap design library. My main responsibilities revolved around improving and developing websites for the group's affiliated companies. Additionally, I contributed to the development of an e-commerce project website and worked on enhancing the functionality of internal admin panels used within the company.
                                 </div>
                             </div>
                         </div>
@@ -115,7 +119,7 @@ const Main = () => {
                                     Patika Dev
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                   
                                 </div>
                             </div>
                             <div className='main__content__section-content'>
@@ -129,7 +133,7 @@ const Main = () => {
                                     BilgeAdam Academy
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                    
                                 </div>
                             </div>
                             <div className='main__content__section-content'>
@@ -143,7 +147,7 @@ const Main = () => {
                                     Ankara
                                 </div>
                                 <div className='main__content__section-content__comment'>
-                                    Consequat reprehenderit adipisicing nostrud voluptate eiusmod nisi culpa pariatur sunt qui sint irure.
+                                   
                                 </div>
                             </div>
                         </div>
@@ -260,6 +264,18 @@ const Main = () => {
                         </div>
                     </div>
                 
+                </div>
+
+
+
+                <div className='main__content__contact'>
+                    <h1 className='text--content-title main__content__title'>Contact</h1>
+                    <div className='main__content__contact__form'>
+                        <Form/>
+
+                        
+                    </div>
+
                 </div>
 
             </div>

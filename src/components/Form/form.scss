@@ -1,0 +1,58 @@
+@import '../../styles/Settings/colors.scss';
+.form {
+    margin-top: 30px;
+    width: 100%;
+    &__input-group {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        
+        input , textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid $grey-05;
+            &:focus {
+                outline-color: $main-04;
+                
+            }
+        }
+        
+        small {
+            position: absolute;
+            bottom: 0;
+            color: $red;
+            margin-left: 5px;
+        }
+
+    }
+    &__btn-group {
+        position: relative;
+        button {
+            width: 100%;
+            padding: 8px;
+            margin: 20px 0;
+            border: none;
+            color: $white;
+            background-color: $main-04;
+            border-radius: 8px;
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                background-color: $main-01;
+                transition: .3s;
+            }
+
+        }
+        small {
+            position: absolute;
+            color: $green;
+            margin-left: 5px;
+        }
+      
+    }
+}
